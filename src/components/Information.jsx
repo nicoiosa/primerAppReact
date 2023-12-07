@@ -1,9 +1,9 @@
-const Information = (props) => {
+const Information = ({tituloSecundario}) => {
   return (
     <>
       <section className="mb-4">
         <h2>Conceptos basicos de React</h2>
-        <h3>{props.tituloSecundario}</h3>
+        <h3>{tituloSecundario}</h3>
         <p>
           React es una biblioteca de JavaScript desarrollada por Facebook que se
           utiliza para construir interfaces de usuario interactivas y
