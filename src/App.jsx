@@ -1,3 +1,4 @@
+import Contador from "./components/Contador";
 import Information from "./components/Information";
 import "bootstrap/dist/css/bootstrap.min.css"
 
@@ -10,6 +11,7 @@ function App() {
       <h1 className="display-3 my-5">Primer App React</h1>
       {/* <Information></Information> */}
       <Information tituloSecundario="Este titulo fue creado por un props"/>
+      <Contador/>
     </section>
   );
 }

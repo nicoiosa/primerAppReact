@@ -15,7 +15,7 @@ const Information = ({tituloSecundario}) => {
           manera eficiente.
         </p>
       </section>
-      <section>
+      <section className="mb-4">
         <ul className="list-group">
           <li className="list-group-item">
             Componentes: Son bloques de construcción fundamentales en React.
