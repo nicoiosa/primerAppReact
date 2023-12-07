@@ -9,7 +9,7 @@ function App() {
     <section className="container">
       <h1 className="display-3 my-5">Primer App React</h1>
       {/* <Information></Information> */}
-      <Information />
+      <Information tituloSecundario="Este titulo fue creado por un props"/>
     </section>
   );
 }
